@@ -27,6 +27,12 @@ function sqrt() {
   const number = display.value;
   display.value = Math.sqrt(number);
 }
+function percent() {
+  calculator();
+  const number = display.value;
+  display.value = number / 100;
+}
+
 function clearDisplay() {
   display.value = "";
 }
